@@ -34,7 +34,7 @@ DELETE_OTHER = "DELETE FROM other WHERE good = ? AND price = ?;"
 
 
 
-
+###create for every table###
 def create_tables():
     conn = sqlite3.connect('data.db')
     with conn:
